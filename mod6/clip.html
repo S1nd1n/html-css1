@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<title>Обрезка элементов и правило clip</title>
+<meta charset="utf-8">
+<style type="text/css">
+#outer{
+	position:absolute;
+	background:#cfc;
+	width:300px;
+	height:300px;
+	left:50px;
+	top:50px;
+	clip:rect(0 100px 150px 20px);
+}
+</style>
+</head>
+<body>
+<div id="outer">
+	<h1>Заголовок</h1>
+	<p>Текст в параграфе, который пока виден, но затем его обрежут, хотя не очень понятно в чем же провинился этот злосчастный кусочек невнятных мыслей, что родились спонтанно и не претендовали на что-то серьезное</p>
+</div>
+</body>
+</html>
